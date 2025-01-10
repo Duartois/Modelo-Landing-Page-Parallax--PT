@@ -15,58 +15,58 @@ import React from 'react';
 
 const testimonials = [
   {
-    text: 'As a seasoned designer always on the lookout for innovative tools, Framer.com instantly grabbed my attention.',
+    text: 'Como designer experiente sempre em busca de ferramentas inovadoras, esse modelo chamou imediatamente minha atenção.',
     imageSrc: avatar1.src,
-    name: 'Jamie Rivera',
-    username: '@jamietechguru00',
+    name: 'João Rivera',
+    username: '@jaoriviera30',
   },
   {
-    text: "Our team's productivity has skyrocketed since we started using this tool. ",
+    text: 'A produtividade da nossa equipe disparou desde que começamos a usar esta ferramenta.',
     imageSrc: avatar2.src,
-    name: 'Josh Smith',
-    username: '@jjsmith',
+    name: 'José Santana',
+    username: '@zesantana',
   },
   {
-    text: 'This app has completely transformed how I manage my projects and deadlines.',
+    text: 'Este aplicativo transformou completamente a maneira como gerencio meus projetos e prazos.',
     imageSrc: avatar3.src,
-    name: 'Morgan Lee',
-    username: '@morganleewhiz',
+    name: 'Marcos luiz',
+    username: '@maluiz',
   },
   {
-    text: 'I was amazed at how quickly we were able to integrate this app into our workflow.',
+    text: 'Fiquei impressionado com a rapidez com que conseguimos integrar este aplicativo ao nosso fluxo de trabalho.',
     imageSrc: avatar4.src,
-    name: 'Casey Jordan',
-    username: '@caseyj',
+    name: 'Denzel Washington ',
+    username: '@denzinhoBala ',
   },
   {
-    text: 'Planning and executing events has never been easier. This app helps me keep track of all the moving parts, ensuring nothing slips through the cracks.',
+    text: 'Planejar e executar eventos nunca foi tão fácil. Este aplicativo me ajuda a acompanhar todas as partes móveis, garantindo que nada passe despercebido.',
     imageSrc: avatar5.src,
-    name: 'Taylor Kim',
-    username: '@taylorkimm',
+    name: 'Tiago Sem T',
+    username: '@tiagosemt',
   },
   {
-    text: 'The customizability and integration capabilities of this app are top-notch.',
+    text: 'A personalização e as capacidades de integração deste aplicativo são de altíssimo nível.',
     imageSrc: avatar6.src,
-    name: 'Riley Smith',
-    username: '@rileysmith1',
+    name: 'Renata Glasc',
+    username: '@rere.vidro',
   },
   {
-    text: 'Adopting this app for our team has streamlined our project management and improved communication across the board.',
+    text: 'Adotar este aplicativo para nossa equipe simplificou o gerenciamento de projetos e melhorou a comunicação em todos os aspectos.',
     imageSrc: avatar7.src,
-    name: 'Jordan Patels',
-    username: '@jpatelsdesign',
+    name: 'Jonathan Jaime',
+    username: '@JJmaryJ',
   },
   {
-    text: 'With this app, we can easily assign tasks, track progress, and manage documents all in one place.',
+    text: 'Com este aplicativo, podemos facilmente atribuir tarefas, acompanhar o progresso e gerenciar documentos em um só lugar.',
     imageSrc: avatar8.src,
-    name: 'Sam Dawson',
-    username: '@dawsontechtips',
+    name: 'Carol Dias',
+    username: '@cadias',
   },
   {
-    text: 'Its user-friendly interface and robust features support our diverse needs.',
+    text: 'Sua interface amigável e recursos robustos atendem às nossas diversas necessidades.',
     imageSrc: avatar9.src,
-    name: 'Casey Harper',
-    username: '@casey09',
+    name: 'Gabriela Silva',
+    username: '@gagasi',
   },
 ];
 
@@ -128,12 +128,12 @@ export const Testimonials = () => {
       <div className='container'>
         <div className='section-heading'>
           <div className='flex justify-center'>
-            <div className='tag'>Testimonials</div>
+            <div className='tag'>Depoimentos</div>
           </div>
-          <h2 className='section-title mt-5'> What our users say</h2>
+          <h2 className='section-title mt-5'> Opinião dos usuários</h2>
           <p className='section-description mt-5'>
-            From intuitive design to powerful features, our app has become an
-            essential tool for users around the world.
+            De um design intuitivo a recursos poderosos, nosso aplicativo se
+            tornou uma ferramenta essencial para usuários em todo o mundo.
           </p>
         </div>
         <div className='flex justify-center gap-6 mt-10 [mask-image:linear-gradient(to_bottom,transparent,black,black,transparent)] max-h-[738px] overflow-hidden'>

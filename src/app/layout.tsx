@@ -7,8 +7,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Light Saas Landing Page",
-  description: "Template created by Frontend Tribe",
+  title: "SaaS Landing Page - PT/BR",
+  description: "Modelo Criado por Matheus Duarte",
 };
 
 export default function RootLayout({

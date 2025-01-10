@@ -18,7 +18,12 @@ export const Hero = () => {
     target: heroRef,
     offset: ['start end', 'end start'],
   });
-  const translateY = useTransform(scrollYProgress, [0, 1], [150, -150]);
+  const translateY = useTransform(
+    scrollYProgress,
+    [0, 1],
+    [150, -150],
+    { clamp: false } // Permite continuar animando fora do intervalo
+  );
 
   return (
     <section
@@ -28,18 +33,19 @@ export const Hero = () => {
       <div className='container'>
         <div className='md:flex items-center'>
           <div className='md:w-[478px]'>
-            <div className='tag'>Version 2.0 is here</div>
-            <h1 className='text-5xl md:text-7xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6'>
-              Pathway to productivity
+            <div className='tag'>Versão 2.0</div>
+            <h1 className='text-5xl md:text-6xl font-bold tracking-tighter bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text mt-6'>
+              Caminho para a produtividade
             </h1>
             <p className='text-xl text-[#010D3E] tracking-tight mt-6'>
-              Celebrate the joy of accomplishment with an app designed to track
-              your progress, motivate your efforts, adn celebrate your success
+              Celebre a alegria da conquista com um aplicativo projetado para
+              acompanhar seu progresso, motivar seus esforços e celebrar seu
+              sucesso.
             </p>
             <div className='flex gap-1 items-center mt-[30px]'>
               <button className='btn btn-primary'>Get for free</button>
               <button className='btn btn-text gap-1'>
-                <span>Learn more</span>
+                <span>Saiba mais</span>
                 <ArrowIcon className='h-5 w-5' />
               </button>
             </div>
@@ -76,7 +82,7 @@ export const Hero = () => {
               className='hidden lg:block absolute top-[524px] left-[448px] rotate-[30deg]'
               style={{
                 rotate: 30,
-                translateY
+                translateY,
               }}
             />
           </div>

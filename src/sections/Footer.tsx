@@ -14,12 +14,12 @@ export const Footer = () => {
           <Image src={logo} height={40} alt='SaaS logo' className='relative' />
         </div>
         <nav className='flex flex-col md:flex-row md:justify-center gap-6 mt-6'>
-          <a href='#'>About</a>
-          <a href='#'>Features</a>
-          <a href='#'>Customers</a>
-          <a href='#'>Pricing</a>
-          <a href='#'>Help</a>
-          <a href='#'>Careers</a>
+          <a href='#'>Sobre</a>
+          <a href='#'>Recursos</a>
+          <a href='#'>Cliente</a>
+          <a href='#'>Valores</a>
+          <a href='#'>Ajuda</a>
+          <a href='#'>Carreira</a>
         </nav>
         <div className='flex justify-center gap-6 mt-6'>
           <SocialX />

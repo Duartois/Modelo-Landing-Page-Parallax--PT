@@ -21,14 +21,15 @@ export const ProductShowcase = () => {
       <div className='container'>
         <div className='section-heading'>
           <div className='flex justify-center'>
-            <div className='tag'>Boost your productivity</div>
+            <div className='tag'>Aumente sua produtividade</div>
           </div>
           <h2 className='section-title mt-5'>
-            A more effective way to track progress
+            Uma maneira mais eficaz e produtiva
           </h2>
           <p className='section-description mt-5'>
-            Effortlessly turn your ideas into a fully functional, responsive,
-            SaaS website in just minutes with this template.
+            Transforme suas ideias em um site SaaS totalmente funcional e
+            responsivo em apenas minutos, de forma simples e eficiente, com este
+            template.
           </p>
         </div>
         <div className='relative'>
