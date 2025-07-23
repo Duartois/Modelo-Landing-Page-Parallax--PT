@@ -24,7 +24,7 @@ Uma landing page moderna e responsiva, criada com Next.js, TailwindCSS e TypeScr
 👉 [Link de Implantação Aqui](https://your-demo-link.vercel.app)
 
 ## 📁 Estrutura do Projeto
-
+```
 /app
 ├── layout.tsx # Layout raiz
 └── page.tsx # Conteúdo da landing page
@@ -39,6 +39,7 @@ Uma landing page moderna e responsiva, criada com Next.js, TailwindCSS e TypeScr
 /next.config.mjs
 /package.json
 /tsconfig.json
+```
 
 ## 💼 Casos de Uso
 Páginas de destino de produtos
