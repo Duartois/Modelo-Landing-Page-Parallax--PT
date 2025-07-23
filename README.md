@@ -54,7 +54,7 @@ GitHub: github.com/Duartois
 
 LinkedIn: [LinkedIn](https://www.linkedin.com/in/matheusduartegoncalves/)
 
-E-mail: seu.email@exemplo.com
+E-mail: matheusdugoncalves@gmail.com
 
 Projetado com foco na interação com a rolagem e clareza — pronto para se adaptar a qualquer produto ou serviço.
 
